@@ -1,0 +1,11 @@
+# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
+# apple_id("[[APPLE_ID]]") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+app_identifier		 ENV['test.pactera']
+apple_id 		 ENV['314902588@qq.com']
+#itc_team_id		 ENV['Itc_Team_Id']
+team_id			 ENV['867SNZAEJE']

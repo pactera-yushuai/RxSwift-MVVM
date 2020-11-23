@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Yamoto
+
+  Created by pactera on 2020/10/22.
+  Copyright © 2020 pactera. All rights reserved.
+*/
+ListName = "List";
+
+Personal = "Personal";
+HomePage = "HomePage";
+Order = "Order";
+Freight = "Freight";
+Back = "Back";
+SearchPlaceholder = "searchPlaceholder";

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="YMTOrderTableViewCell" rowHeight="121" id="KGk-i7-Jjw" customClass="YMTOrderTableViewCell" customModule="Yamoto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dd2-Cg-hy9">
+                        <rect key="frame" x="20" y="40.5" width="40" height="40"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="GDu-BK-DU1"/>
+                            <constraint firstAttribute="height" constant="40" id="tKP-9Y-w8c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收件人电话：123131234123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hM4-d9-o9u">
+                        <rect key="frame" x="80" y="47" width="185" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="185" id="UzF-9V-Mmw"/>
+                            <constraint firstAttribute="height" constant="16" id="s4D-r4-Ren"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收件人地址：朝阳市就嫌弃的红啊东方红啊大家哦骄傲1好远的" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDh-LT-Wgc">
+                        <rect key="frame" x="80" y="68" width="209" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="209" id="maL-OY-Ykz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单号:1020310391" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaZ-4q-k5P">
+                        <rect key="frame" x="247" y="15" width="124" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="V6F-pt-yVI"/>
+                            <constraint firstAttribute="width" constant="124" id="Y2i-md-6K8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kw-al-wux">
+                        <rect key="frame" x="301" y="50" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="FXa-21-0fa"/>
+                            <constraint firstAttribute="width" constant="40" id="TnC-kp-KLw"/>
+                        </constraints>
+                        <state key="normal" title="电话" backgroundImage="navtiaonBackgroup"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收件人：张某某" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CP8-xK-PV6">
+                        <rect key="frame" x="80" y="15" width="152" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="152" id="KmF-83-Pvo"/>
+                            <constraint firstAttribute="height" constant="20.5" id="Xds-97-dee"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vDh-LT-Wgc" firstAttribute="leading" secondItem="dd2-Cg-hy9" secondAttribute="trailing" constant="20" id="0vp-9I-8AM"/>
+                    <constraint firstItem="KaZ-4q-k5P" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="3qh-MG-jyu"/>
+                    <constraint firstItem="dd2-Cg-hy9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="5YH-zo-deL"/>
+                    <constraint firstItem="hM4-d9-o9u" firstAttribute="top" secondItem="KaZ-4q-k5P" secondAttribute="bottom" constant="10" id="7Ua-ta-Vqe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8kw-al-wux" secondAttribute="bottom" constant="20" id="Aa7-NO-tSJ"/>
+                    <constraint firstItem="vDh-LT-Wgc" firstAttribute="top" secondItem="hM4-d9-o9u" secondAttribute="bottom" constant="5" id="FLZ-pQ-AtP"/>
+                    <constraint firstItem="CP8-xK-PV6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="80" id="Flo-EM-PwK"/>
+                    <constraint firstAttribute="trailing" secondItem="KaZ-4q-k5P" secondAttribute="trailing" constant="5" id="KGH-dv-uZy"/>
+                    <constraint firstItem="CP8-xK-PV6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="T0L-a2-257"/>
+                    <constraint firstItem="hM4-d9-o9u" firstAttribute="leading" secondItem="dd2-Cg-hy9" secondAttribute="trailing" constant="20" id="gT1-lG-cT6"/>
+                    <constraint firstItem="dd2-Cg-hy9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="iVZ-ci-UrE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vDh-LT-Wgc" secondAttribute="bottom" constant="15" id="q8i-Wc-gKf"/>
+                    <constraint firstItem="8kw-al-wux" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="-15" id="uUN-BR-lt1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="address" destination="vDh-LT-Wgc" id="kjy-np-etF"/>
+                <outlet property="name" destination="CP8-xK-PV6" id="s8h-HH-7Rb"/>
+                <outlet property="number" destination="KaZ-4q-k5P" id="oKk-B7-WkY"/>
+                <outlet property="phone" destination="8kw-al-wux" id="iI5-sC-lLN"/>
+                <outlet property="title" destination="dd2-Cg-hy9" id="5Dk-n6-3Ux"/>
+            </connections>
+            <point key="canvasLocation" x="-226.08695652173915" y="58.59375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="navtiaonBackgroup" width="187.5" height="38"/>
+    </resources>
+</document>
